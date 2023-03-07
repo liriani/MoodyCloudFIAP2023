@@ -78,7 +78,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Email"/>
+        android:hint="@string/edt_signUpEmail"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -91,7 +91,7 @@
 
             android:layout_marginBottom="40dp"
             android:gravity="start"
-            android:hint="Password" />
+            android:hint="@string/edt_signPassword" />
 
         <Button
             android:layout_width="wrap_content"

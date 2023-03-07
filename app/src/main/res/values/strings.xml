@@ -14,8 +14,8 @@
 
     <string name="btn_signGoogle">Sign in with Google</string>
     <string name="btn_signAppleID">Sign in with Apple ID</string>
-    <string name="edt_signSmail">Email</string>
-    <string name="edt_signPassword">Email</string>
+    <string name="edt_signInEmail">Email</string>
+    <string name="edt_signPassword">Password</string>
     <string name="btn_forgotPassword">I forgot my password</string>
     <string name="btn_showPassword">Show</string>
 
