@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="40dp">
+
+                <ImageView
+                android:id="@+id/img_cloud"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img_cloud_staticsage"/>
+
+                <TextView
+                android:id="@+id/txt_titleHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="@string/title_home"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_logmoodHome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/log_mood_button"
+                android:textColor="@color/purple_primary"
+                android:backgroundTint="@color/white"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:textSize="16sp"
+                android:textAllCaps="false" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="start">
+
+                <TextView
+                    android:id="@+id/txv_titlechart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_chart"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/gray"/>
+
+                <TextView
+                    android:id="@+id/txv_statusfellings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/status_feelings"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/purple_primary" />
+
+                <ImageView
+                    android:id="@+id/img_chartMood"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/img_chart_staticpage"
+                    android:layout_marginBottom="2dp"/>
+
+                <TextView
+                    android:id="@+id/txv_captionChart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/caption_chart"
+                    android:textColor="@color/gray"
+                    android:textSize="14sp"
+                    android:layout_marginEnd="60dp"
+                    android:layout_marginBottom="35dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txv_titleCardFeelings"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_cards_fellings"
+                    android:textSize="20sp"
+                    android:textColor="@color/gray"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="15dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/purple_light"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:layout_marginBottom="10dp"
+                    >
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/img_medicine_staticpage"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/card_medicine"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/purple_light"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:layout_marginBottom="10dp"
+                    >
+                    <ImageView
+                        android:id="@+id/ico_cardHeart"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/img_heart_staticpage"/>
+
+                    <TextView
+                        android:id="@+id/txv_descriptionHeart"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/card_heart" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/purple_light"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:id="@+id/ico_cardSleep"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/img_sleep_staticpage"/>
+
+                    <TextView
+                        android:id="@+id/txv_descriptionSleep"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/card_sleep"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/purple_light"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:layout_marginBottom="10dp"
+                    >
+                    <ImageView
+                        android:id="@+id/ico_cardTalk"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/img_talk_staticpage"
+                        />
+
+                    <TextView
+                        android:id="@+id/txv_descriptionTalk"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/card_talk"
+                        />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
