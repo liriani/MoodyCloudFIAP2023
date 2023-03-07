@@ -15,12 +15,12 @@ class MainActivity : AppCompatActivity() {
 
 
         btnsignUpHome.setOnClickListener{
-            val i = Intent(this, HomeActivity::class.java)
+            val i = Intent(this, SignUpActivity::class.java)
             startActivity(i)
         }
 
         btnsignInHome.setOnClickListener{
-            val i = Intent(this,HomeActivity::class.java)
+            val i = Intent(this,SignInActivity::class.java)
             startActivity(i)
         }
     }

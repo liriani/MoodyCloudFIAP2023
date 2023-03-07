@@ -1,20 +1,40 @@
 <resources>
     <string name="app_name">Moody Cloud</string>
 
-<!--Welcome-->
+    <!--Welcome-->
     <string name="welcome_title">Welcome to\n Moody Cloud</string>
     <string name="welcome_subtitle">Your faithful friend in Bipolar\n disorder and beyond</string>
     <string name="welcome_message">We are happy to see you here :)</string>
 
-    <string name="btn_login">Sign in</string>
+    <string name="btn_signIn">Sign in</string>
+    <string name="btn_signUp">Sign up</string>
     <string name="btn_subscribe">I am new! Sign me up</string>
 
-<!-- Sign-->
+    <!-- Sign-->
 
     <string name="btn_signGoogle">Sign in with Google</string>
     <string name="btn_signAppleID">Sign in with Apple ID</string>
+    <string name="edt_signSmail">Email</string>
+    <string name="edt_signPassword">Email</string>
     <string name="btn_forgotPassword">I forgot my password</string>
     <string name="btn_showPassword">Show</string>
+
+    <!-- Sign-->
+
+    <string name="btn_signUpGoogle">Sign up with Google</string>
+    <string name="btn_signUpAppleID">Sign up with Apple ID</string>
+    <string name="edt_signUpEmail">Email</string>
+    <string name="edt_signUpPassword">Password</string>
+    <string name="edt_repeatPassword">Repeat password</string>
+    <string name="btn_forgotUpPassword">I forgot my password</string>
+    <string name="btn_showUpPassword">Show</string>
+
+    <string name="txv_terms">By signing up, you agree to the terms and conditions</string>
+    <string name="btn_getStarted">Get started</string>
+
+
+
+
 
 
     <!--Home-->
@@ -33,8 +53,6 @@
     <string name="card_heart">Lunch with Dad made you a bit sad lately</string>
     <string name="card_sleep">Unstable sleep routines might be increasing your irritability</string>
     <string name="card_talk">You have been fighting a lot with your partner since the kitchen incident</string>
-
-
 
 
 </resources>
