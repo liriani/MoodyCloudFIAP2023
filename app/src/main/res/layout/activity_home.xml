@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeActivity"
     android:orientation="vertical"
-    android:padding="20dp">
+    android:padding="20dp"
+    tools:context=".HomeActivity">
 
 
     <ScrollView
@@ -21,23 +21,23 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="40dp">
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal">
 
                 <ImageView
-                android:id="@+id/img_cloud"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/img_cloud_staticsage"/>
+                    android:id="@+id/img_cloud"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/img_cloud_staticsage" />
 
                 <TextView
-                android:id="@+id/txt_titleHome"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:text="@string/title_home"
-                android:textSize="30sp"
-                android:textStyle="bold"/>
+                    android:id="@+id/txt_titleHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:text="@string/title_home"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -45,55 +45,55 @@
                 android:id="@+id/btn_logmoodHome"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/log_mood_button"
-                android:textColor="@color/purple_primary"
-                android:backgroundTint="@color/white"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="30dp"
-                android:textSize="16sp"
-                android:textAllCaps="false" />
+                android:backgroundTint="@color/white"
+                android:text="@string/log_mood_button"
+                android:textAllCaps="false"
+                android:textColor="@color/purple_primary"
+                android:textSize="16sp" />
 
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:gravity="start">
+                android:gravity="start"
+                android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/txv_titlechart"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/title_chart"
+                    android:textColor="@color/gray"
                     android:textSize="20sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/gray"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/txv_statusfellings"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/status_feelings"
+                    android:textColor="@color/purple_primary"
                     android:textSize="20sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/purple_primary" />
+                    android:textStyle="bold" />
 
                 <ImageView
                     android:id="@+id/img_chartMood"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/img_chart_staticpage"
-                    android:layout_marginBottom="2dp"/>
+                    android:layout_marginBottom="2dp"
+                    android:src="@drawable/img_chart_staticpage" />
 
                 <TextView
                     android:id="@+id/txv_captionChart"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="60dp"
+                    android:layout_marginBottom="35dp"
                     android:text="@string/caption_chart"
                     android:textColor="@color/gray"
-                    android:textSize="14sp"
-                    android:layout_marginEnd="60dp"
-                    android:layout_marginBottom="35dp"/>
+                    android:textSize="14sp" />
 
             </LinearLayout>
 
@@ -106,48 +106,47 @@
                     android:id="@+id/txv_titleCardFeelings"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/title_cards_fellings"
-                    android:textSize="20sp"
-                    android:textColor="@color/gray"
-                    android:textStyle="bold"
                     android:layout_marginBottom="15dp"
-                    />
+                    android:text="@string/title_cards_fellings"
+                    android:textColor="@color/gray"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
                     android:background="@color/purple_light"
                     android:orientation="horizontal"
-                    android:padding="5dp"
-                    android:layout_marginBottom="10dp"
-                    >
+                    android:padding="10dp">
+
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/img_medicine_staticpage"
-                        />
+                        android:layout_marginEnd="10dp"
+                        android:src="@drawable/img_medicine_staticpage" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/card_medicine"
-                        />
+                        android:text="@string/card_medicine" />
 
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
                     android:background="@color/purple_light"
                     android:orientation="horizontal"
-                    android:padding="5dp"
-                    android:layout_marginBottom="10dp"
-                    >
+                    android:padding="10dp">
+
                     <ImageView
                         android:id="@+id/ico_cardHeart"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/img_heart_staticpage"/>
+                        android:layout_marginEnd="10dp"
+                        android:src="@drawable/img_heart_staticpage" />
 
                     <TextView
                         android:id="@+id/txv_descriptionHeart"
@@ -160,22 +159,23 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
                     android:background="@color/purple_light"
                     android:orientation="horizontal"
-                    android:padding="5dp"
-                    android:layout_marginBottom="10dp">
+                    android:padding="10dp">
 
                     <ImageView
                         android:id="@+id/ico_cardSleep"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/img_sleep_staticpage"/>
+                        android:layout_marginEnd="10dp"
+                        android:src="@drawable/img_sleep_staticpage" />
 
                     <TextView
                         android:id="@+id/txv_descriptionSleep"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/card_sleep"/>
+                        android:text="@string/card_sleep" />
 
 
                 </LinearLayout>
@@ -183,25 +183,23 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
                     android:background="@color/purple_light"
                     android:orientation="horizontal"
-                    android:padding="5dp"
-                    android:layout_marginBottom="10dp"
-                    >
+                    android:padding="10dp">
+
                     <ImageView
                         android:id="@+id/ico_cardTalk"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/img_talk_staticpage"
-                        />
+                        android:layout_marginEnd="10dp"
+                        android:src="@drawable/img_talk_staticpage" />
 
                     <TextView
                         android:id="@+id/txv_descriptionTalk"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/card_talk"
-                        />
-
+                        android:text="@string/card_talk" />
 
                 </LinearLayout>
 
