@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">Moody Cloud</string>
+
+
+    <string name="welcome_title">Welcome to\n Moody Cloud</string>
+    <string name="welcome_subtitle">Your faithful friend in Bipolar\n disorder and beyond</string>
+    <string name="welcome_message">We are happy to see you here :)</string>
+
+    <string name="btn_login">Sign in</string>
+    <string name="btn_subscribe">I'm new! Sign me up</string>
+
+
+    <string name="title_home">Hey, Liriani!</string>
+    <string name="log_mood_button">Log mood</string>
+
+
+    <string name="title_chart">Lately, you have been feeling...</string>
+    <string name="status_feelings">Highly unstable</string>
+
+    <string name="caption_chart">For more accurate data, log in your feelings as often as possible</string>
+
+    <string name="title_cards_fellings">What hapenned?</string>
+
+    <string name="card_medicine">Regular take of medicines might be helping to control your mood in stressful moments</string>
+    <string name="card_heart">Lunch with Dad made you a bit sad lately</string>
+    <string name="card_sleep">Unstable sleep routines might be increasing your irritability</string>
+    <string name="card_talk">You have been fighting a lot with your partner since the kitchen incident</string>
+
+
 </resources>
