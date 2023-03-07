@@ -41,6 +41,7 @@
 
             </LinearLayout>
 
+
             <Button
                 android:id="@+id/btn_logmoodHome"
                 android:layout_width="match_parent"
